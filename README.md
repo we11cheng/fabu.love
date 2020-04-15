@@ -215,6 +215,29 @@ npm ERR! Please include the following file with any support request:
 npm ERR!     /var/www/LoveFabu/server/npm-debug.log
 
 ```
-### A1: node版本过低，升级node版本，推荐使用node8/9，node版本控制参考 <https://blog.csdn.net/qq_38128179/article/details/80745362>， 升级node版本之后需要重新运行server端。
+
+### 不生效最好重启一下mongod
+
+```
+sudo systemctl enable mongod
+sudo service mongod restart
+```
+
+### A1: node版本过低，升级node版本，推荐使用node8/9，node版本控制参考 <https://blog.csdn.net/qq_38128179/article/details/80745362>， 升级node版本之后需要重新运行server端。直接上命令
+```
+root@iZbp1ibd5qj8a3dwztxsf8Z:~# nvm ls
+        v5.10.1
+         v7.4.0
+         v8.0.0
+->       system
+```
+```
+nvm install 8.0.0
+```
+```
+nvm use 8.0.0
+```
+
+
 
 
