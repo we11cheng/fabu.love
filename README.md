@@ -53,7 +53,9 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 1.clone 下载代码 `git clone https://github.com/HeadingMobile/LoveFabu.git`
 
-2.运行server端
+2.找到文件存放目录，我这里放在了```/var/www/LoveFabu```
+
+3.运行server端
 
 ```bash
 #进入项目根目录
@@ -237,7 +239,11 @@ nvm install 8.0.0
 ```
 nvm use 8.0.0
 ```
+#### nvm 设置node默认版本
 
+```
+nvm alias default v8.0.0
+```
 
 
 
