@@ -82,7 +82,7 @@ root@iZbp1ibd5qj8a3dwztxsf8Z:/var/www/LoveFabu/server# pm2 start process.json
 └──────────┴────┴──────┴──────┴────────┴─────────┴────────┴─────┴──────────┴──────┴──────────┘
 ```
 
-3.编译运行前端页面
+4.编译运行前端页面
 
 ```Bash
 cd client
@@ -98,7 +98,7 @@ npm run dev  #本地运行可以使用该命令，便于调试，发布到nginx�
 ============>>end
 ```
 
-4.使用浏览器打开进入http://localhost3009即可进入应用
+5.使用浏览器打开进入<http://localhost3009>即可进入应用
 
 
 
